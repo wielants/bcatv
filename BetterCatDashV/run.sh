@@ -1,3 +1,3 @@
 #!/bin/bash
 
-java -cp bin/ org.bcatv.BetterCatDashV
+java -cp bin/ org.bcatv.BetterCatDashV "$@"

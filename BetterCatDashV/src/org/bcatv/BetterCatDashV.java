@@ -29,8 +29,8 @@ public class BetterCatDashV {
 	
 	private static void printHex(char data) {
 		if (data == '\n') {
-			//printAscii('\\');
-			printAscii('\n');
+			printAscii('\\');
+			printAscii('n');
 			return;
 		} else if (data == 0x07) {  // bell
 			printAscii('\\');
